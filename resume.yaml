@@ -1,5 +1,6 @@
 cv:
   name: LJ Redmond
+  headline: Senior Software Engineer
   location: Davenport, IA
   email: ljredmond9@gmail.com
   social_networks:
@@ -8,14 +9,14 @@ cv:
     - network: GitHub
       username: ljredmond9
   
-  summary: |
-    Versatile and adaptable software engineer with over 8 years of comprehensive experience in cloud-based, full-stack development.
-    Known for robust problem-solving abilities, attention to detail, and a strong focus on creating efficient and scalable systems.
-    Demonstrated proficiency in handling complex backend architectures, with a track record of delivering solutions that drive business growth.
-    Quick to adapt to new development environments and frameworks, with a dedication to continual learning and growth.
-  
   sections:
-    Skills:
+    summary: |
+      Versatile and adaptable software engineer with over 8 years of comprehensive experience in cloud-based, full-stack development.
+      Known for robust problem-solving abilities, attention to detail, and a strong focus on creating efficient and scalable systems.
+      Demonstrated proficiency in handling complex backend architectures, with a track record of delivering solutions that drive business growth.
+      Quick to adapt to new development environments and frameworks, with a dedication to continual learning and growth.
+
+    skills:
       - label: Languages
         details: Java, Scala, Python, Rust, C#, Typescript, Go
       
@@ -31,7 +32,7 @@ cv:
       - label: Tools & Methodologies
         details: Git, Agile/Scrum, TDD, RESTful APIs, Microservices
 
-    Experience:
+    experience:
       - company: John Deere
         position: Senior Software Engineer
         location: Milan, IL
@@ -76,7 +77,7 @@ cv:
           - Enhanced an enterprise-level Java application to optimize report generation, yielding estimated annual cost savings of $150,000.
           - Delivered a comprehensive presentation detailing the rationale, implementation choices, and key results of my work to an audience of managers and peers, enhancing cross-team understanding and collaboration.
     
-    Education:
+    education:
       - institution: Iowa State University
         location: Ames, IA
         area: Computer Science
@@ -87,29 +88,14 @@ cv:
           - "2nd major: Mathematics"
           - "Honors: Summa Cum Laude, GPA: 3.91/4.0"
     
-    # Projects:
-    #   - name: TaskFlow - Project Management Tool
-    #     date: 2023
-    #     highlights:
-    #       - Built full-stack application with React, Node.js, PostgreSQL, and Redis
-    #       - Implemented real-time collaboration features using WebSockets
-    #       - Deployed on AWS using Docker and Kubernetes
-    #       - "Technologies: React, TypeScript, Node.js, Express, PostgreSQL, Redis, Docker, Kubernetes"
-      
-    #   - name: Weather Dashboard
-    #     date: 2022
-    #     highlights:
-    #       - Created weather visualization dashboard consuming multiple weather APIs
-    #       - Implemented responsive design with mobile-first approach
-    #       - Achieved 95+ Lighthouse scores across all categories
-    #       - "Technologies: React, Next.js, Tailwind CSS, Chart.js"
-      
-    #   - name: Open Source Contributions
-    #     date: 2020-present
-    #     highlights:
-    #       - Active contributor to popular open-source projects on GitHub
-    #       - Submitted bug fixes and feature enhancements to React ecosystem libraries
-    #       - Maintained personal open-source projects with 500+ stars combined
+    projects:
+      - name: Jargo
+        date: 2026
+        highlights:
+          - A build tool for Java, built with Rust and inspired by Cargo.
+          - Focuses on speed, reliability, and a great developer experience.
+          - Automated release process with GitHub Actions, with changelog generation and binary distribution via GitHub Releases.
+          - Currently under development
 
 design:
   theme: engineeringresumes
