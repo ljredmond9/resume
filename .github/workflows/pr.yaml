@@ -19,7 +19,7 @@ jobs:
 
       - run: pip install "rendercv[full]"
 
-      - run: rendercv render John_Doe_CV.yaml
+      - run: rendercv render resume.yaml
 
       - name: Push PNGs to renders branch
         run: |
