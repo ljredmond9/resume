@@ -2,7 +2,6 @@ cv:
   name: LJ Redmond
   location: Davenport, IA
   email: ljredmond9@gmail.com
-  # website: https://johndoe.dev
   social_networks:
     - network: LinkedIn
       username: ljredmond
@@ -23,10 +22,11 @@ cv:
         start_date: 2023-08
         end_date: present
         highlights:
-          - Led development of microservices architecture serving 1M+ daily active users
-          - Reduced API response time by 40% through optimization and caching strategies
-          - Mentored team of 3 junior engineers, improving code quality and development practices
-          - Implemented CI/CD pipelines using GitHub Actions, reducing deployment time by 60%
+          - Designed and implemented a scalable real-time alerting system for critical machine events, utilizing AWS ECS Fargate and Elasticache.
+          - Advocated for and implemented a robust SQS consumer architecture, utilizing back-pressure to ensure system stability and reliability under high load conditions.
+          - Built proof-of-concept video streaming application using AWS Kinesis Video Streams and the Producer SDK for C
+          - Implemented custom NGINX reverse proxy with AWS request signing to securely expose Kibana dashboards to internal users
+          - Implemented CI/CD pipelines using GitHub Actions.
       
       - company: Dwolla
         position: Software Engineer II
@@ -34,10 +34,12 @@ cv:
         start_date: 2019-07
         end_date: 2023-03
         highlights:
-          - Developed RESTful APIs and microservices using Node.js and Python
-          - Built responsive web applications with React and TypeScript
-          - Integrated third-party payment systems (Stripe, PayPal) processing $500K+ monthly
-          - Collaborated with product team to design and implement new features
+          - Collaborated with marketing, sales operations, and product teams to develop growth initiatives such as Push-to- Debit and Real-Time Payments.
+          - Built customer-facing onboarding applications using JavaScript and React, significantly improving time-to-revenue and increasing client retention.
+          - Addressed and resolved scalability issues in the application architecture, enhancing system performance and reliability.
+          - Leveraged AWS services, particularly AWS Lambda and AWS ECS, to design and manage microservices architecture, enabling efficient application deployment and scalable operations.
+          - Participated in a strategic initiative led by the CEO, conducting in-depth market analysis to identify the Total Addressable Market and key competitors. Applied insights from research to pinpoint Dwolla's potential competitive advantages, contributing to the company's strategic growth planning and market positioning efforts.
+          - Utilized a variety of testing methods, including unit, integration, and end-to-end tests, leading to improved product stability and reduced time spent on debugging.
       
       - company: John Deere
         position: Software Engineer
@@ -45,10 +47,18 @@ cv:
         start_date: 2017-05
         end_date: 2019-07
         highlights:
-          - Created custom WordPress themes and plugins for client websites
-          - Implemented automated testing using Jest and Cypress
-          - Participated in agile development processes and daily stand-ups
-          - Maintained legacy codebases and resolved production issues
+          - Enhanced user experience and functionality by implementing and maintaining features for customer-facing applications in the John Deere Operations Center.
+          - Developed real-time data streaming server features, using Java and the Netty framework to communicate with telematic devices over the WebSocket protocol.
+          - Demonstrated initiative to understand customer needs by attending a comprehensive 3-day course on Hay and Forage operations. Gained thorough knowledge of John Deere's Baling, Raking, and Tedding equipment, and the embedded precision farming technology used by farmers for optimized operations.
+
+      - company: John Deere
+        position: Software Development Intern
+        location: Moline, IL
+        start_date: 2016-06
+        end_date: 2016-08
+        highlights:
+          - Enhanced an enterprise-level Java application to optimize report generation, yielding estimated annual cost savings of $150,000.
+          - Delivered a comprehensive presentation detailing the rationale, implementation choices, and key results of my work to an audience of managers and peers, enhancing cross-team understanding and collaboration.
     
     Education:
       - institution: Iowa State University
