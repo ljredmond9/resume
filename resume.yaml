@@ -15,6 +15,22 @@ cv:
     Quick to adapt to new development environments and frameworks, with a dedication to continual learning and growth.
   
   sections:
+    Skills:
+      - label: Languages
+        details: Java, Scala, Python, Rust, C#, Typescript, Go
+      
+      - label: Architecture
+        details: Microservices, Event-Driven, Serverless, RESTful APIs, WebSockets
+      
+      - label: Databases
+        details: PostgreSQL, DynamoDB, Redis, RDS / Aurora, Elasticache
+      
+      - label: Cloud & DevOps
+        details: AWS, Docker, GitHub Actions, CI/CD, Terraform, CloudFormation
+      
+      - label: Tools & Methodologies
+        details: Git, Agile/Scrum, TDD, RESTful APIs, Microservices
+
     Experience:
       - company: John Deere
         position: Senior Software Engineer
@@ -94,22 +110,6 @@ cv:
     #       - Active contributor to popular open-source projects on GitHub
     #       - Submitted bug fixes and feature enhancements to React ecosystem libraries
     #       - Maintained personal open-source projects with 500+ stars combined
-    
-    Skills:
-      - label: Programming Languages
-        details: JavaScript, TypeScript, Python, Java, Go, SQL
-      
-      - label: Web Technologies
-        details: React, Node.js, Next.js, Express, FastAPI, HTML5, CSS3
-      
-      - label: Databases
-        details: PostgreSQL, MongoDB, Redis, MySQL
-      
-      - label: Cloud & DevOps
-        details: AWS, Docker, Kubernetes, GitHub Actions, CI/CD, Terraform
-      
-      - label: Tools & Methodologies
-        details: Git, Agile/Scrum, TDD, RESTful APIs, Microservices
 
 design:
   theme: engineeringresumes
