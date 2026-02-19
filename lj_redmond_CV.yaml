@@ -91,8 +91,15 @@ cv:
         highlights:
           - A build tool for Java, built with Rust and inspired by Cargo.
           - Focuses on speed, reliability, and a great developer experience.
-          - Automated release process with GitHub Actions, with changelog generation and binary distribution via GitHub Releases.
+          - Automated release process with changelog generation and binary distribution via GitHub Actions.
           - Currently under development
 
 design:
   theme: engineeringresumes
+
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.6in
+  #   bottom_margin: 0.6in
+  #   left_margin: 0.6in
+  #   right_margin: 0.6in
