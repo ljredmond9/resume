@@ -28,7 +28,7 @@ jobs:
           pip install rendercv[full]
       
       - name: Render CV
-        run: rendercv render John_Doe_CV.yaml
+        run: rendercv render resume.yaml
       
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
