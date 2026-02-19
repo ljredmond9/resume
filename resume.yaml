@@ -10,11 +10,8 @@ cv:
       username: ljredmond9
   
   sections:
-    summary: |
-      Versatile and adaptable software engineer with over 8 years of comprehensive experience in cloud-based, full-stack development.
-      Known for robust problem-solving abilities, attention to detail, and a strong focus on creating efficient and scalable systems.
-      Demonstrated proficiency in handling complex backend architectures, with a track record of delivering solutions that drive business growth.
-      Quick to adapt to new development environments and frameworks, with a dedication to continual learning and growth.
+    summary:
+      - Versatile and adaptable software engineer with over 8 years of comprehensive experience in cloud-based, full-stack development. Known for robust problem-solving abilities, attention to detail, and a strong focus on creating efficient and scalable systems. Demonstrated proficiency in handling complex backend architectures, with a track record of delivering solutions that drive business growth. Quick to adapt to new development environments and frameworks, with a dedication to continual learning and growth.
 
     skills:
       - label: Languages
@@ -41,7 +38,7 @@ cv:
         highlights:
           - Designed and implemented a scalable real-time alerting system for critical machine events, utilizing AWS ECS Fargate and Elasticache.
           - Advocated for and implemented a robust SQS consumer architecture, utilizing back-pressure to ensure system stability and reliability under high load conditions.
-          - Built proof-of-concept video streaming application using AWS Kinesis Video Streams and the Producer SDK for C
+          - Built proof-of-concept video streaming application using AWS Kinesis Video Streams and the Producer SDK for C++
           - Implemented custom NGINX reverse proxy with AWS request signing to securely expose Kibana dashboards to internal users
           - Implemented CI/CD pipelines using GitHub Actions.
       
