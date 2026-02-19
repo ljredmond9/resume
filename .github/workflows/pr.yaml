@@ -32,7 +32,6 @@ jobs:
           git add pr-${{ github.event.number }}/
           git commit --allow-empty -m "Render for PR #${{ github.event.number }}"
           git push origin renders
-          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
       - name: Comment on PR with preview
         uses: actions/github-script@v7
@@ -40,7 +39,7 @@ jobs:
           script: |
             const { owner, repo } = context.repo;
             const prNumber = context.issue.number;
-            const sha = '${{ steps.push.outputs.sha }}';
+            const sha = '${{ github.sha }}'.substring(0, 7);
             const base = `https://raw.githubusercontent.com/${owner}/${repo}/renders/pr-${prNumber}`;
 
             const fs = require('fs');
