@@ -19,7 +19,7 @@ jobs:
 
       - run: pip install "rendercv[full]"
 
-      - run: rendercv render John_Doe_CV.yaml
+      - run: rendercv render lj_redmond_CV.yaml
 
       - name: Push PNGs to renders branch
         run: |
@@ -30,7 +30,7 @@ jobs:
           mkdir -p pr-${{ github.event.number }}
           cp rendercv_output/*.png pr-${{ github.event.number }}/
           git add pr-${{ github.event.number }}/
-          git commit -m "Render for PR #${{ github.event.number }}"
+          git commit --allow-empty -m "Render for PR #${{ github.event.number }}"
           git push origin renders
 
       - name: Comment on PR with preview
@@ -39,6 +39,7 @@ jobs:
           script: |
             const { owner, repo } = context.repo;
             const prNumber = context.issue.number;
+            const sha = '${{ github.sha }}'.substring(0, 7);
             const base = `https://raw.githubusercontent.com/${owner}/${repo}/renders/pr-${prNumber}`;
 
             const fs = require('fs');
@@ -47,7 +48,7 @@ jobs:
               .sort();
 
             const images = pngs
-              .map((f, i) => `**Page ${i + 1}**\n![resume page ${i + 1}](${base}/${f})`)
+              .map((f, i) => `**Page ${i + 1}**\n![resume page ${i + 1}](${base}/${f}?${sha})`)
               .join('\n\n');
 
             const body = `📄 **Resume preview**\n\n${images}`;
