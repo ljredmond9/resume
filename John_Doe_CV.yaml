@@ -1,0 +1,104 @@
+cv:
+  name: John Doe
+  location: San Francisco, CA
+  email: john.doe@example.com
+  website: https://johndoe.dev
+  social_networks:
+    - network: LinkedIn
+      username: johndoe
+    - network: GitHub
+      username: johndoe
+  
+  summary: |
+    Senior Software Engineer with 5+ years of experience building scalable web applications and distributed systems. 
+    Passionate about clean code, test-driven development, and continuous learning. Proven track record of delivering 
+    high-quality software solutions in fast-paced environments.
+  
+  sections:
+    Experience:
+      - company: Tech Solutions Inc.
+        position: Senior Software Engineer
+        location: San Francisco, CA
+        start_date: 2021-03
+        end_date: present
+        highlights:
+          - Led development of microservices architecture serving 1M+ daily active users
+          - Reduced API response time by 40% through optimization and caching strategies
+          - Mentored team of 3 junior engineers, improving code quality and development practices
+          - Implemented CI/CD pipelines using GitHub Actions, reducing deployment time by 60%
+      
+      - company: Startup Innovations LLC
+        position: Software Engineer
+        location: Remote
+        start_date: 2019-06
+        end_date: 2021-02
+        highlights:
+          - Developed RESTful APIs and microservices using Node.js and Python
+          - Built responsive web applications with React and TypeScript
+          - Integrated third-party payment systems (Stripe, PayPal) processing $500K+ monthly
+          - Collaborated with product team to design and implement new features
+      
+      - company: Digital Agency Co.
+        position: Junior Software Developer
+        location: Seattle, WA
+        start_date: 2018-01
+        end_date: 2019-05
+        highlights:
+          - Created custom WordPress themes and plugins for client websites
+          - Implemented automated testing using Jest and Cypress
+          - Participated in agile development processes and daily stand-ups
+          - Maintained legacy codebases and resolved production issues
+    
+    Education:
+      - institution: University of California, Berkeley
+        area: Computer Science
+        degree: Bachelor of Science
+        start_date: 2014-09
+        end_date: 2018-05
+        highlights:
+          - "GPA: 3.7/4.0"
+          - "Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development"
+          - Dean's List (2016-2018)
+    
+    Projects:
+      - name: TaskFlow - Project Management Tool
+        date: 2023
+        highlights:
+          - Built full-stack application with React, Node.js, PostgreSQL, and Redis
+          - Implemented real-time collaboration features using WebSockets
+          - Deployed on AWS using Docker and Kubernetes
+          - "Technologies: React, TypeScript, Node.js, Express, PostgreSQL, Redis, Docker, Kubernetes"
+      
+      - name: Weather Dashboard
+        date: 2022
+        highlights:
+          - Created weather visualization dashboard consuming multiple weather APIs
+          - Implemented responsive design with mobile-first approach
+          - Achieved 95+ Lighthouse scores across all categories
+          - "Technologies: React, Next.js, Tailwind CSS, Chart.js"
+      
+      - name: Open Source Contributions
+        date: 2020-present
+        highlights:
+          - Active contributor to popular open-source projects on GitHub
+          - Submitted bug fixes and feature enhancements to React ecosystem libraries
+          - Maintained personal open-source projects with 500+ stars combined
+    
+    Skills:
+      - label: Programming Languages
+        details: JavaScript, TypeScript, Python, Java, Go, SQL
+      
+      - label: Web Technologies
+        details: React, Node.js, Next.js, Express, FastAPI, HTML5, CSS3
+      
+      - label: Databases
+        details: PostgreSQL, MongoDB, Redis, MySQL
+      
+      - label: Cloud & DevOps
+        details: AWS, Docker, Kubernetes, GitHub Actions, CI/CD, Terraform
+      
+      - label: Tools & Methodologies
+        details: Git, Agile/Scrum, TDD, RESTful APIs, Microservices
+
+design:
+  theme: engineeringresumes

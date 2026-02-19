@@ -1,0 +1,8 @@
+# RenderCV output directory
+rendercv_output/
+
+# Rendered PDF files
+*.pdf
+
+# Rendered PNG files
+*.png
