@@ -30,7 +30,7 @@ jobs:
           mkdir -p pr-${{ github.event.number }}
           cp rendercv_output/*.png pr-${{ github.event.number }}/
           git add pr-${{ github.event.number }}/
-          git commit -m "Render for PR #${{ github.event.number }}"
+          git commit --allow-empty -m "Render for PR #${{ github.event.number }}"
           git push origin renders
           echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
