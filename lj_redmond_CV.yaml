@@ -11,13 +11,9 @@ cv:
   
   sections:
     summary:
-      - Senior Software Engineer with 8+ years of experience building reliable, distributed systems in AWS. Deep expertise in cloud infrastructure, high-availability architectures, and resilient backend systems, with a strong track record of leading cross-functional technical initiatives across large organizations. Skilled at translating business continuity requirements into recoverable architectures and tested operational playbooks. Committed to driving reliability and sustainability at scale.
+      - Senior Software Engineer with 8+ years of experience building reliable, distributed systems in AWS. Proven track record of translating complex business continuity requirements into highly available, resilient cloud architectures that drive operational reliability at enterprise scale.
 
-    certifications:
-      - name: AWS Certified Developer - Associate
-        date: 2026-02
-
-    tools:
+    "Skills & Tools":
       - label: Languages
         details: Java, Scala, Python, Rust, C#, Typescript, Go, Swift
       
@@ -25,10 +21,10 @@ cv:
         details: Lambda, ECS, Fargate, EC2
 
       - label: Messaging
-        details: SQS, SNS, Kinesis, WebSockets, RabbitMQ
+        details: SQS, SNS, Kinesis, EventBridge, WebSockets, RabbitMQ
 
       - label: Data
-        details: RDS, Aurora, DynamoDB, S3, ElastiCache, PostgresQL, Redis, Databricks
+        details: RDS, Aurora, DynamoDB, S3, ElastiCache, PostgreSQL, Redis, Databricks, OpenSearch
 
       - label: DevOps
         details: Terraform, GitHub Actions, CloudFormation, Docker, Datadog
@@ -40,8 +36,8 @@ cv:
         start_date: 2023-08
         end_date: present
         highlights:
-          - Designed and implemented a high-availability real-time alerting system for critical machine events, leveraging AWS ECS Fargate and ElastiCache to ensure reliable event delivery at scale.
-          - Architected a resilient SQS consumer with back-pressure controls, ensuring fault tolerance and system stability under high-load conditions — establishing a reusable reliability pattern adopted across teams.
+          - Designed and implemented the core architecture for a high-availability, real-time alerting system for critical machine events, leveraging Akka Cluster Sharding on AWS ECS Fargate to establish a fault-tolerant, distributed foundation for future scale.
+          - Architected a resilient SQS consumer with back-pressure controls, ensuring fault tolerance and system stability under high-load conditions — establishing a reusable pattern adopted across teams.
           - Defined CI/CD pipeline standards using GitHub Actions, enabling consistent and automated deployment workflows across multiple services.
           - Built proof-of-concept video streaming application using AWS Kinesis Video Streams and the Producer SDK for C++.
           - Implemented custom NGINX reverse proxy with AWS request signing to securely expose Kibana dashboards to internal users.
@@ -63,7 +59,7 @@ cv:
         start_date: 2017-05
         end_date: 2019-07
         highlights:
-          - Developed and maintained features for the John Deere Operations Center, the core platform now being modernized into a multi-region system — providing deep domain context for ongoing reliability and architecture work.
+          - Developed and maintained features for the John Deere Operations Center, allowing customers to manage Products and Tank Mixes.
           - Built high-throughput real-time data streaming features in Java using the Netty framework, handling WebSocket connections from telematics devices at scale.
           - Developed deep understanding of agriculture customer workflows and equipment telemetry by completing John Deere Hay and Forage operations training, enabling more impactful technical decisions aligned to customer impact.
 
@@ -89,6 +85,10 @@ cv:
           - Seamlessly manages the transition of Magic accessories between computers in response to USB connection events.
           - Built with Swift, IOKit, and blueutil.
           - Open source project available on GitHub (github.com/ljredmond9/DockSwitch)
+
+    certifications:
+      - name: AWS Certified Developer - Associate
+        date: 2026-02
 
     education:
       - institution: Iowa State University
